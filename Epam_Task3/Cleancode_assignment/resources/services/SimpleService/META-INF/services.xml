@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+serviceGroup>
+	<service name="SimpleService">
+		<parameter name="ServiceClass">epam.CleanCode_Task4.SimpleService</parameter>
+		<operation name="helloService">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+	</service>
+</serviceGroup>
